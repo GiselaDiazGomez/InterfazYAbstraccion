@@ -20,6 +20,7 @@ public class InterfazYAbstraccion {
         TransformadorImplementado miTransformadorImplementado = new TransformadorImplementado();
         
         miConversorConcreto.dato=10;
+        miTransformadorImplementado.dato=10;
         
         System.out.println("Grados a radianes con abstracción= "+miConversorConcreto.grado2radian());
         System.out.println("Fahrenheit a Kelvin= "+miConversorConcreto.fahrenheit2kelvin());
